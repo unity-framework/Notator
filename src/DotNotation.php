@@ -12,7 +12,7 @@ use Unity\Contracts\Notator\INotation;
 class DotNotation implements INotation
 {
     /**
-     * Denotes a string using dot (.) as separator
+     * Denotes a string using dot (.) as separator.
      *
      * @param $notation
      *
