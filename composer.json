@@ -1,0 +1,15 @@
+{
+    "name": "unity/notator",
+    "description": "Notation parser package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "e200",
+            "email": "eleandro@inbox.ru"
+        }
+    ],
+    "require": {
+        "unity/contracts": "dev-master"
+    }
+}
