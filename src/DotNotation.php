@@ -18,7 +18,7 @@ class DotNotation implements INotation
      *
      * @return string[]
      */
-    static function denote($notation)
+    public function denote($notation)
     {
         return explode('.', $notation);
     }
