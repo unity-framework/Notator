@@ -7,19 +7,16 @@ use Unity\Contracts\Notator\INotation;
 /**
  * Class DotNotation.
  *
+ * Denotes a string using a dot `.` as separator.
+ *
  * @author Eleandro Duzentos <eleandro@inbox.ru>
  */
-class DotNotation implements INotation
+class DotNotation extends Notation
 {
     /**
-     * Denotes a string using dot (.) as separator
+     * Notation separator.
      *
-     * @param $notation
-     *
-     * @return string[]
+     * @var string
      */
-    public function denote($notation)
-    {
-        return explode('.', $notation);
-    }
+    const SEPARATOR = '.';
 }
