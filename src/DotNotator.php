@@ -2,16 +2,15 @@
 
 namespace Unity\Notator;
 
-use Unity\Contracts\Notator\INotation;
-
 /**
- * Class DotNotation.
+ * Class DotNotator.
  *
  * Denotes a string using a dot `.` as separator.
  *
  * @author Eleandro Duzentos <eleandro@inbox.ru>
+ * @link   https://github.com/e200/
  */
-class DotNotation extends Notation
+class DotNotator extends Notator
 {
     /**
      * Notation separator.
