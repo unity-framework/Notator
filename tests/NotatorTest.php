@@ -7,7 +7,9 @@ class NotatorTest extends TestCase
 {
     public function testDenote()
     {
-        $notation = new class extends Notator { const SEPARATOR = '_'; };
+        $notation = new class() extends Notator {
+            const SEPARATOR = '_';
+        };
 
         $expected = ['a', 'b', 'c'];
 
