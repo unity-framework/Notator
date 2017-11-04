@@ -8,6 +8,7 @@ use Unity\Contracts\Notator\INotator;
  * Abstract class Notator.
  *
  * @author Eleandro Duzentos <eleandro@inbox.ru>
+ *
  * @link   https://github.com/e200/
  */
 abstract class Notator implements INotator
