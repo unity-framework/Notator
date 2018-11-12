@@ -2,7 +2,7 @@
 
 namespace Unity\Notator;
 
-use Unity\Contracts\Notator\INotator;
+use Unity\Notator\Contracts\INotator;
 
 /**
  * Abstract class Notator.
