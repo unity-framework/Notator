@@ -1,5 +1,6 @@
 {
     "name": "unity/notator",
+    "version": "0.1",
     "description": "Notation parser package",
     "type": "library",
     "license": "MIT",
@@ -10,14 +11,7 @@
         }
     ],
     "require": {
-        "unity/contracts": "dev-master"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "../contracts"
-        }
-    ],
     "require-dev": {
         "phpunit/phpunit": "^6.4"
     },
